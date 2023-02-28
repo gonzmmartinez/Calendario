@@ -4,7 +4,7 @@ import json
 class Usuario:
 
     def CrearUsuario(self, username, password):
-        
+
     def Username(self, username):
         self.username = username
 
