@@ -1,16 +1,6 @@
 from datetime import date, datetime
 import json
 
-class Usuario:
-
-    def CrearUsuario(self, username, password):
-
-    def Username(self, username):
-        self.username = username
-
-    def Password(self, password):
-        self.password = password
-
 class Evento:
     id = 0
 
