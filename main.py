@@ -1,4 +1,3 @@
-from datetime import date, datetime
 import json
 
 
@@ -39,9 +38,8 @@ class Evento:
                  'Fecha': self.fecha,
                  'Hora': self.hora,
                  'Recordatorio': self.recordatorio}
-        with open(f"E:\Code\\UPATecO\\Programacion-I\\TrabajoFinal\\Calendario\\data\\Eventos.json", 'a') as datos_json:
-            json.dump(datos, datos_json)
-
+        with open("E:\Code\\UPATecO\\Programacion-I\\TrabajoFinal\\Calendario\\data\\Eventos.json", 'a') as datos_json:
+            json.dump(datos, datos_json, indent = 6)
 
 x = Evento()
 x.DefinirNombre('Nacimiento')
